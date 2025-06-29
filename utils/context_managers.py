@@ -35,5 +35,3 @@ def example_file_usage():
     with FileLogger('example.log', 'w') as file:
         file.write("Это тестовое сообщение\n")
         file.write("Еще одно сообщение\n")
-    
-    # Файл автоматически закроется и запишет время закрытия 
